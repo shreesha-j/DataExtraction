@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h1 className="my-5 text-2xl font-bold mb-4 text-center  text-emerald-500">Data Extraction</h1>
         {children}
       </body>
     </html>
